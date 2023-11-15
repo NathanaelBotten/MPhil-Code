@@ -7,4 +7,5 @@ Included in this repository is:
 2. The code I used to calculate the binding energy of Cascade hyperons, as in chapter 4 of my thesis. This was also done using the Numerov algorithm, and in a Jupyter notebook.
 3. Code to calculate the mean value of the sigma meson field, when considering a Sigma hyperon bound in Helium nucleus. Once again using the Numerov algorithm and done using a Jupyter notebook.
 4. Fortran code to calculate the shift in the energy levels in Iron and Carbon nuclei, when considering the binding of a cascade nucleus.
-5. The values for the finite Coulomb potential for Iron and Carbon nuclei, contained in a compressed file. There are instructions in the fortran files on how to calculate these yourself if you so wish to do so instead.
+
+Not included is the values calculated for the finite Coulomb potential in the iron and carbon nuclei. There are however instructions for how to calculate these included in the findeigenvalue.f90 files for both the carbon and iron nuclei. It is recommended to write these to a file, as these are rather computationally intensive processes, that are relatively lengthy.
