@@ -8,7 +8,7 @@ This code employs the Runge-Kutta method in order to solve the Dirac equation fo
 
 ## Running the program
 
-1. Download or clone this repository, e.g. `git clone git@github.com:jonocarroll/Dirac.git`
+1. Download or clone this repository
 1. Edit the `Makefile` to use whichever Fortran compiler you have. This has been tested with `gfortran`
 1. Ensure a clean start with `make clean` which removes all `.o` and `.mod` files as well as the compiled binary
 1. Compile the code with `make` (which automatically builds `make Dirac`)
